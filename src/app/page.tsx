@@ -29,7 +29,7 @@ export default function HomePage() {
           <p className="text-sm font-semibold tracking-wide text-slate-800 dark:text-slate-100">
             Muhammad Zain Asghar
           </p>
-          <nav className="flex items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+          <nav className="hidden items-center gap-4 text-sm text-slate-500 dark:text-slate-400 md:flex">
             <a className="transition hover:text-sky-700 dark:hover:text-sky-300" href="#about">
               About
             </a>
@@ -44,6 +44,52 @@ export default function HomePage() {
             </a>
             <ThemeToggle />
           </nav>
+
+          <div className="flex items-center gap-2 md:hidden">
+            <ThemeToggle />
+            <details className="relative">
+              <summary className="flex cursor-pointer list-none items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800">
+                <svg
+                  aria-hidden="true"
+                  className="h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+              </summary>
+              <div className="absolute right-0 top-12 z-50 w-52 rounded-xl border border-slate-200 bg-white p-2 shadow-lg dark:border-slate-700 dark:bg-slate-900">
+                <nav className="flex flex-col gap-1 text-sm text-slate-600 dark:text-slate-300">
+                  <a
+                    className="rounded-md px-3 py-2 transition hover:bg-sky-50 hover:text-sky-700 dark:hover:bg-slate-800 dark:hover:text-sky-300"
+                    href="#about"
+                  >
+                    About
+                  </a>
+                  <a
+                    className="rounded-md px-3 py-2 transition hover:bg-sky-50 hover:text-sky-700 dark:hover:bg-slate-800 dark:hover:text-sky-300"
+                    href="#experience"
+                  >
+                    Experience
+                  </a>
+                  <a
+                    className="rounded-md px-3 py-2 transition hover:bg-sky-50 hover:text-sky-700 dark:hover:bg-slate-800 dark:hover:text-sky-300"
+                    href="#case-studies"
+                  >
+                    Case Studies
+                  </a>
+                  <a
+                    className="rounded-md px-3 py-2 transition hover:bg-sky-50 hover:text-sky-700 dark:hover:bg-slate-800 dark:hover:text-sky-300"
+                    href="#playground"
+                  >
+                    Playground
+                  </a>
+                </nav>
+              </div>
+            </details>
+          </div>
         </div>
       </div>
 
