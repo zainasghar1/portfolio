@@ -203,7 +203,7 @@ export default function HomePage() {
 
                     <a
                       className="inline-flex w-full items-center justify-center rounded-lg border border-sky-300 bg-sky-50 px-4 py-2 text-sm font-medium text-sky-700 hover:bg-sky-100 dark:border-sky-600 dark:bg-sky-950/40 dark:text-sky-200 dark:hover:bg-sky-900/50"
-                      href="/cv.png"
+                      href="/zain_asghar_resume.pdf"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -222,7 +222,7 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               title="Professional Summary"
-              subtitle="Built from your CV in a clean recruiter-first format."
+              subtitle=""
             />
           </Reveal>
           <Reveal>
@@ -311,7 +311,7 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               title="Featured Case Studies"
-              subtitle="Structured as problem, solution, and impact — the format recruiters scan fastest."
+              subtitle=""
             />
           </Reveal>
           <Reveal>
@@ -323,7 +323,7 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               title="Interactive Playground"
-              subtitle="A mini-game visitors can play directly on your portfolio."
+              subtitle=""
             />
           </Reveal>
           <Reveal>
@@ -335,7 +335,7 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               title="Languages & Interests"
-              subtitle="Quick personal snapshot."
+              subtitle=""
             />
           </Reveal>
           <Reveal>

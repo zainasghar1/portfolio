@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Muhammad Zain Asghar | Portfolio",
-  description: "Portfolio built from your CV details",
+  description: "Muhammad Zain Asghar's Portfolio",
 };
 
 export default function RootLayout({
